@@ -7,7 +7,9 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url(../images/island.png);
+    background-image: url(../images/f8628892-05d6-43f2-863a-25dbfa56bbf5.png);
+    background-color:#020308;
+    background-size:48vh 48vh;
 }
 .box{
     display: flex;
@@ -20,7 +22,9 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
-    
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    min-height: 50vh;
 }
 span{
     color: #fff;
@@ -63,13 +67,16 @@ i{
     height: 45px;
     outline: none;
     width: 100%;
-    color: black;
-    background: rgba(255,255,255,0.7);
+    color:black;
+    background: #b3afaf;
     cursor: pointer;
     transition: .3s ;
 }
 .submit:hover{
-    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 5px 7px 1px wheat;
+}
+.input:hover{
+    box-shadow: 1px 5px 7px 1px wheat;
 }
 .two-col{
     display: flex;
@@ -87,5 +94,5 @@ label a{
     color: #fff;
 }
 input::placeholder{
-    color: black;
+    color: whitesmoke;
 }
