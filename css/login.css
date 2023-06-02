@@ -7,9 +7,8 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url(../images/f8628892-05d6-43f2-863a-25dbfa56bbf5.png);
-    background-color:#020308;
-    background-size:48vh 48vh;
+    background-image: url(../images/sky\ blue\ background.jpg);
+   
 }
 .box{
     display: flex;
@@ -25,6 +24,13 @@ body{
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 20px;
     min-height: 50vh;
+background-color: black;
+    background-image: url(../images/f8628892-05d6-43f2-863a-25dbfa56bbf5.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:54vh 48vh;
 }
 span{
     color: #fff;
@@ -67,8 +73,9 @@ i{
     height: 45px;
     outline: none;
     width: 100%;
-    color:black;
-    background: #b3afaf;
+    color:#fff;
+    font-size: 20px;
+    background: rgba(255,255,255,0.1);
     cursor: pointer;
     transition: .3s ;
 }
@@ -94,5 +101,6 @@ label a{
     color: #fff;
 }
 input::placeholder{
-    color: whitesmoke;
+    color: #fff;
+    font-size:18px;
 }
