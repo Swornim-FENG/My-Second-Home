@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
 *{
     font-family: 'poppins' ,sans-serif;
+    
 }
 body{
     background-size: cover;
@@ -24,14 +25,15 @@ body{
     padding: 0 15px 0 15px;
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 20px;
-    min-height: 50vh;
-background-color: black;
+    min-height: 70vh;
+
     background-image: url(../images/f8628892-05d6-43f2-863a-25dbfa56bbf5.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:54vh 48vh;
+    background-color: brown;
 }
 span{
     color: #fff;
@@ -40,6 +42,7 @@ span{
     justify-content: center;
     padding: 10px 0 10px 0;
 }
+
 header{
     color: #fff;
     font-size: 30px;
@@ -105,3 +108,32 @@ input::placeholder{
     color: #fff;
     font-size:18px;
 }
+.icons i{
+    color: #07001f;
+    padding: 00.8rem 1.5rem;
+    border-radius: 10px;
+    margin-left:2.9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    margin-top: 2.5rem;
+  }
+  .or{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-left: 4.5rem;
+    color: #07001f;
+    
+    }
+  
+.icons i:hover{
+    color: #fff !important;
+    background: #07001f;
+    transition: 1s;
+  }
+  .icons i:first-child{
+    color: white;
+  }
+  .icons i:last-child{
+    color: blue;
+  }
