@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: #dfe9f5;
+  background: #FFE6C7;
 }
 .a{
   font-size: 4vh;
@@ -17,7 +17,7 @@ body{
   width: 50vh;
   padding: 0 15px 0 15px;
   margin: 50px auto;
-  background: #fff;
+  background: #FFA559;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
